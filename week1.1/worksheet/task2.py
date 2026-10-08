@@ -13,6 +13,8 @@ try:
     savings = int(input("Enter your monthly savings amount: "))
     saved = savings * 12
     print(f"You will save {saved} every year.")
+    interest = saved * 1.008
+    print(f"With interest, you will save £{interest:.2f} per year.")
 except:
     print("Invalid amount")
 
