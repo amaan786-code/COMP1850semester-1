@@ -8,5 +8,7 @@ while fruit:
 
 
 # Why does this work?
+# it takes out the last item in the list
 
 # What features of Python does it rely on?
+# pop()
