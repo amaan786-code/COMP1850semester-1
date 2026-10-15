@@ -15,3 +15,7 @@
 # story.txt - 290
 # story2.txt - 326
 # glasses.txt - 210
+with open("story2.txt", "r") as file:
+    text = file.read()
+words = text.split()
+print(len(words))
