@@ -7,4 +7,5 @@ Look up documentation on the 'input()' function
 - what is the output?
 - think about the description of the data and also the type
 
+
 Write a small program to test the function

@@ -40,16 +40,16 @@ def run_program():
 
     match operation:
         case 1:
-            result = None    # complete this line of code
+            result = num1 + num2    # complete this line of code
             print(f"The result of addition is: {result}")
         case 2:
-            result = None    # complete this line of code
+            result = num1 - num2    # complete this line of code
             print(f"The result of subtraction is: {result}")
         case 3:
-            result = None   # complete this line of code
+            result = num1 * num2   # complete this line of code
             print(f"The result of multiplication is: {result}")
         case 4:
-            result = None    # complete this line of code
+            result = num1 / num2    # complete this line of code
             print(f"The result of division is: {result}")
         case _:
             print("Undefined operation")

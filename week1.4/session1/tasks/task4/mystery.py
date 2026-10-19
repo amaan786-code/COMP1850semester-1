@@ -11,6 +11,9 @@
 # function implementation
 
 def mystery_func(string):
+    """ 
+    It is a mystery function
+    """
     upper = 0
     lower = 0
 
