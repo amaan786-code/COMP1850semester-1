@@ -32,5 +32,5 @@ class Point:
 
 # Test program
 
-p = Point("two", "one")
+p = Point(float("two"), float("one"))
 print(p.distance())

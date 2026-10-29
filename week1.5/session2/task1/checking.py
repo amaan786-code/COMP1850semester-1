@@ -16,6 +16,10 @@ class Point:
         """
         self.x = x
         self.y = y
+        if not isinstance(x, (int, float)):
+            raise TypeError("x should be a number")
+        if not isinstance(y, (int, float)):
+            raise TypeError("y should be a number")
 
     def distance(self):
         """
